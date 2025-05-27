@@ -1,0 +1,33 @@
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212121;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.admin-navbar-left .nav-link {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.admin-navbar-left .nav-link:hover {
+  text-decoration: underline;
+}
+
+.logout-button {
+  background-color: #ff5c5c;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #e04848;
+}
